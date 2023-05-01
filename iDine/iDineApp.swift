@@ -14,7 +14,7 @@ struct iDineApp: App {
     @StateObject var order = Order()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
             // this makes sure we pass the order(observableObject) object to the children
             // its swiftUI's of sharing data across diffrent parts of our app
             // basicailly like ContextAPI in react
