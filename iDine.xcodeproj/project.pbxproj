@@ -13,6 +13,10 @@
 		20ABA7F829FFD6DA00E6342E /* iDineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ABA7F729FFD6DA00E6342E /* iDineUITests.swift */; };
 		20ABA7FA29FFD6DA00E6342E /* iDineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ABA7F929FFD6DA00E6342E /* iDineUITestsLaunchTests.swift */; };
 		20ABA87D29FFD83300E6342E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20ABA87C29FFD83300E6342E /* Assets.xcassets */; };
+		20ABA87F29FFDA3700E6342E /* helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ABA87E29FFDA3700E6342E /* helper.swift */; };
+		20ABA88129FFDD1600E6342E /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ABA88029FFDD1600E6342E /* Menu.swift */; };
+		20E0A9E129FFDFC8005E3A94 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 20E0A9E029FFDFC8005E3A94 /* menu.json */; };
+		20E0A9E529FFE132005E3A94 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E0A9E429FFE132005E3A94 /* ItemRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +46,10 @@
 		20ABA7F729FFD6DA00E6342E /* iDineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDineUITests.swift; sourceTree = "<group>"; };
 		20ABA7F929FFD6DA00E6342E /* iDineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDineUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		20ABA87C29FFD83300E6342E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../iDine-main/iDine/Assets.xcassets"; sourceTree = "<group>"; };
+		20ABA87E29FFDA3700E6342E /* helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helper.swift; sourceTree = "<group>"; };
+		20ABA88029FFDD1600E6342E /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		20E0A9E029FFDFC8005E3A94 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = menu.json; path = "../../iDine-main/iDine/menu.json"; sourceTree = "<group>"; };
+		20E0A9E429FFE132005E3A94 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,9 +100,13 @@
 		20ABA7DB29FFD6D900E6342E /* iDine */ = {
 			isa = PBXGroup;
 			children = (
+				20E0A9E029FFDFC8005E3A94 /* menu.json */,
 				20ABA7DC29FFD6D900E6342E /* iDineApp.swift */,
+				20E0A9E429FFE132005E3A94 /* ItemRow.swift */,
 				20ABA7DE29FFD6D900E6342E /* ContentView.swift */,
+				20ABA87E29FFDA3700E6342E /* helper.swift */,
 				20ABA87C29FFD83300E6342E /* Assets.xcassets */,
+				20ABA88029FFDD1600E6342E /* Menu.swift */,
 			);
 			path = iDine;
 			sourceTree = "<group>";
@@ -220,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20E0A9E129FFDFC8005E3A94 /* menu.json in Resources */,
 				20ABA87D29FFD83300E6342E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,7 +258,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20ABA87F29FFDA3700E6342E /* helper.swift in Sources */,
 				20ABA7DF29FFD6D900E6342E /* ContentView.swift in Sources */,
+				20E0A9E529FFE132005E3A94 /* ItemRow.swift in Sources */,
+				20ABA88129FFDD1600E6342E /* Menu.swift in Sources */,
 				20ABA7DD29FFD6D900E6342E /* iDineApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
