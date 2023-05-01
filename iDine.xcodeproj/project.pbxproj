@@ -18,6 +18,8 @@
 		20E0A9E129FFDFC8005E3A94 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 20E0A9E029FFDFC8005E3A94 /* menu.json */; };
 		20E0A9E529FFE132005E3A94 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E0A9E429FFE132005E3A94 /* ItemRow.swift */; };
 		20E0A9E729FFE6A3005E3A94 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E0A9E629FFE6A3005E3A94 /* ItemDetail.swift */; };
+		20E0A9E929FFECFC005E3A94 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E0A9E829FFECFC005E3A94 /* Order.swift */; };
+		20E0A9EB29FFF0CD005E3A94 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E0A9EA29FFF0CD005E3A94 /* OrderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		20E0A9E029FFDFC8005E3A94 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = menu.json; path = "../../iDine-main/iDine/menu.json"; sourceTree = "<group>"; };
 		20E0A9E429FFE132005E3A94 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 		20E0A9E629FFE6A3005E3A94 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		20E0A9E829FFECFC005E3A94 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		20E0A9EA29FFF0CD005E3A94 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +111,10 @@
 				20E0A9E429FFE132005E3A94 /* ItemRow.swift */,
 				20ABA7DE29FFD6D900E6342E /* ContentView.swift */,
 				20E0A9E629FFE6A3005E3A94 /* ItemDetail.swift */,
+				20E0A9EA29FFF0CD005E3A94 /* OrderView.swift */,
 				20ABA87E29FFDA3700E6342E /* helper.swift */,
 				20ABA87C29FFD83300E6342E /* Assets.xcassets */,
+				20E0A9E829FFECFC005E3A94 /* Order.swift */,
 				20ABA88029FFDD1600E6342E /* Menu.swift */,
 			);
 			path = iDine;
@@ -262,11 +268,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				20ABA87F29FFDA3700E6342E /* helper.swift in Sources */,
+				20E0A9EB29FFF0CD005E3A94 /* OrderView.swift in Sources */,
 				20E0A9E729FFE6A3005E3A94 /* ItemDetail.swift in Sources */,
 				20ABA7DF29FFD6D900E6342E /* ContentView.swift in Sources */,
 				20E0A9E529FFE132005E3A94 /* ItemRow.swift in Sources */,
 				20ABA88129FFDD1600E6342E /* Menu.swift in Sources */,
 				20ABA7DD29FFD6D900E6342E /* iDineApp.swift in Sources */,
+				20E0A9E929FFECFC005E3A94 /* Order.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
