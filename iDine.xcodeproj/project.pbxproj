@@ -9,11 +9,10 @@
 /* Begin PBXBuildFile section */
 		20ABA7DD29FFD6D900E6342E /* iDineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ABA7DC29FFD6D900E6342E /* iDineApp.swift */; };
 		20ABA7DF29FFD6D900E6342E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ABA7DE29FFD6D900E6342E /* ContentView.swift */; };
-		20ABA7E129FFD6DA00E6342E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20ABA7E029FFD6DA00E6342E /* Assets.xcassets */; };
-		20ABA7E429FFD6DA00E6342E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20ABA7E329FFD6DA00E6342E /* Preview Assets.xcassets */; };
 		20ABA7EE29FFD6DA00E6342E /* iDineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ABA7ED29FFD6DA00E6342E /* iDineTests.swift */; };
 		20ABA7F829FFD6DA00E6342E /* iDineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ABA7F729FFD6DA00E6342E /* iDineUITests.swift */; };
 		20ABA7FA29FFD6DA00E6342E /* iDineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ABA7F929FFD6DA00E6342E /* iDineUITestsLaunchTests.swift */; };
+		20ABA87D29FFD83300E6342E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20ABA87C29FFD83300E6342E /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,13 +36,12 @@
 		20ABA7D929FFD6D900E6342E /* iDine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20ABA7DC29FFD6D900E6342E /* iDineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDineApp.swift; sourceTree = "<group>"; };
 		20ABA7DE29FFD6D900E6342E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		20ABA7E029FFD6DA00E6342E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		20ABA7E329FFD6DA00E6342E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		20ABA7E929FFD6DA00E6342E /* iDineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iDineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20ABA7ED29FFD6DA00E6342E /* iDineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDineTests.swift; sourceTree = "<group>"; };
 		20ABA7F329FFD6DA00E6342E /* iDineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iDineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20ABA7F729FFD6DA00E6342E /* iDineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDineUITests.swift; sourceTree = "<group>"; };
 		20ABA7F929FFD6DA00E6342E /* iDineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		20ABA87C29FFD83300E6342E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../iDine-main/iDine/Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,18 +94,9 @@
 			children = (
 				20ABA7DC29FFD6D900E6342E /* iDineApp.swift */,
 				20ABA7DE29FFD6D900E6342E /* ContentView.swift */,
-				20ABA7E029FFD6DA00E6342E /* Assets.xcassets */,
-				20ABA7E229FFD6DA00E6342E /* Preview Content */,
+				20ABA87C29FFD83300E6342E /* Assets.xcassets */,
 			);
 			path = iDine;
-			sourceTree = "<group>";
-		};
-		20ABA7E229FFD6DA00E6342E /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				20ABA7E329FFD6DA00E6342E /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		20ABA7EC29FFD6DA00E6342E /* iDineTests */ = {
@@ -231,8 +220,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20ABA7E429FFD6DA00E6342E /* Preview Assets.xcassets in Resources */,
-				20ABA7E129FFD6DA00E6342E /* Assets.xcassets in Resources */,
+				20ABA87D29FFD83300E6342E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
